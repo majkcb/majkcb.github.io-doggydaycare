@@ -1,0 +1,170 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #F9D9B4;
+  padding: 0 20px;
+}
+
+section {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+section.home {
+  height: 100vh;
+  margin: 0;
+  width: 100vw;
+  background-color: #F9D9B4;
+}
+
+section.home h2 {
+  font-size: 4rem;
+  color: #6B293B;
+  margin-bottom: 2rem;
+}
+
+section.home p {
+  margin-bottom: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #6B293B;
+}
+
+section.home button {
+  background-color: #FF6F61;
+  color: #fff;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 50px;
+  padding: 1rem 2.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 2rem;
+}
+
+section.home button:hover {
+  background-color: #FEA47F;
+}
+
+section.catalog {
+  background-color: #F9D9B4;
+}
+
+section.catalog h2 {
+  font-size: 4rem;
+  color: #6B293B;
+  margin-bottom: 2rem;
+}
+
+section.catalog button {
+  background-color: #FF6F61;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+section.catalog button:hover {
+  background-color: #FEA47F;
+}
+
+section.dogdetails {
+  height: 100vh;
+  margin: 0;
+  width: 100vw;
+  background-color: #F9D9B4;
+}
+
+section.dogdetails h1 {
+  margin-top: 2rem;
+}
+
+section.dogdetails p {
+  margin-bottom: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #6B293B;
+}
+
+section.dogdetails button {
+  background-color: #FF6F61;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+
+section.dogdetails button:hover {
+  background-color: #FEA47F;
+}
+
+.dog-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dog-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  max-height: 300px;
+  border: 2px solid #6B293B;
+  border-radius: 8px;
+  background-color: #FEA47F;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.dog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.dog-image {
+  max-height: 150px;
+  max-width: 150px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.dog-name {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.dog-breed {
+  margin-bottom: 0.5rem;
+}
+
+.dog-age {
+  margin-bottom: 0.5rem;
+}
